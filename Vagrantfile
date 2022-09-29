@@ -14,5 +14,5 @@ Vagrant.configure('2') do |config|
   # Configuration for Port Forwarding
   # Uncomment or add new ones here as required
   # config.vm.network 'forwarded_port', guest: 6379, host: 6379, id: 'redis'
-  config.vm.network 'forwarded_port', guest: 3306, host: 3306, id: 'mysql'
+  # config.vm.network 'forwarded_port', guest: 3306, host: 3306, id: 'mysql'
 end
